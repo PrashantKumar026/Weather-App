@@ -1,74 +1,45 @@
 # 🌦️ Weather App
+A simple and responsive Weather App built using **HTML**, **CSS**, and **JavaScript**. This application allows users to search for any city and get real-time weather updates including temperature, weather condition, humidity, and wind speed.
+This Weather App is a responsive and interactive web application built with HTML, CSS, and JavaScript that allows users to get real-time weather updates of any city using the OpenWeatherMap API. Users can enter the name of a city and receive live weather data including temperature, weather condition, humidity, and wind speed.
 
-A simple and responsive **Weather App** built using **HTML**, **CSS**, and **JavaScript**. This application allows users to search for any city and get **real-time weather updates** including temperature, condition, humidity, and wind speed — powered by the **OpenWeatherMap API**.
+Core Functionality :
 
----
+HTML : 
 
-## 📸 Demo
+Defines the structure of the app including search input, weather display, and error section.
 
-🔗 **Live Demo**: [Click here to view the live app](#) *(Replace with your GitHub Pages or Netlify link)*  
-📷 ![Weather App Screenshot](./assets/screenshot.png) *(Add your actual screenshot path)*
+-> Used to build the basic structure of the application.
 
----
+-> Includes input field, buttons, and containers for weather information display.
 
-## 📖 Overview
+CSS : 
 
-This Weather App is a **beginner-friendly** and **interactive web application**. Users can simply input a city name, and the app will:
+Adds modern styling with background colors, spacing, hover effects, and responsive layout.
 
-- Fetch data from the **OpenWeatherMap API**
-- Display **real-time weather conditions**
-- Show temperature in °C, description, icon, humidity, and wind speed
-- Handle errors gracefully (e.g., city not found)
+-> Applied for styling the user interface.
 
----
+-> Provides layout, colors, fonts, spacing, and responsive design.
 
-## 🔍 How It Works
+-> Flexbox is used for alignment and responsive behavior.
 
-- **User enters a city name** in the search box.
-- **On clicking the search icon**, the app sends a request to the OpenWeatherMap API.
-- If the city exists:
-  - ✅ Shows **current temperature**
-  - ✅ Displays **weather condition and icon**
-  - ✅ Updates **humidity and wind speed**
-- If the city doesn't exist:
-  - ❌ Displays **"Location not found"** message and image.
+JavaScript :
 
----
+-> Fetches data asynchronously from OpenWeatherMap.
 
-## 🎨 UI Design Highlights
+-> Dynamically updates the DOM with real-time weather info.
 
-- ✅ **Clean and modern card-style layout**
-- ✅ **Responsive for all screen sizes**
-- ✅ **Font Awesome icons** for humidity and wind
-- ✅ **Dynamic weather icons** (sun, cloud, rain, etc.)
-- ✅ **Smooth user interaction and real-time feedback**
+-> Handles error messages if location is not found.
 
----
+-> Maps weather conditions to local icons
 
-## 🛠️ Tools & Technologies Used
+Key Highlights:
 
-| Tool | Purpose |
-|------|---------|
-| **HTML** | Structure and layout |
-| **CSS** | Styling and responsiveness |
-| **JavaScript** | Logic, API calls, dynamic updates |
-| **OpenWeatherMap API** | Real-time weather data |
-| **Font Awesome** | Weather-related icons |
-| **Local Assets** | Custom weather icons (`cloud.png`, `rain.png`, etc.) |
+🔍 Interactive Search: Just type the name of any city and click the search icon to get instant weather updates.
 
----
+🌡️ Temperature Display: Shows real-time temperature in °C with large, bold typography for quick readability.
 
-## ⚙️ Getting Started
+🌧️ Condition Awareness: Text and icon visuals reflect the actual weather (e.g., Light Rain, Sunny, etc.), keeping users informed at a glance.
 
-To get a local copy up and running, follow these simple steps:
+💧 Humidity & Wind: Additional details like humidity percentage and wind speed help users plan their day better.
 
-### ✅ Prerequisites
-
-- A modern web browser
-- An API key from [OpenWeatherMap](https://home.openweathermap.org/api_keys)
-
-### 📥 Installation
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/prashantgupta02026/weather-app.git
+📱 Responsive Design: Whether on desktop or mobile, the layout adjusts beautifully, making it accessible everywhere.
