@@ -1,45 +1,82 @@
-# 🌦️ Weather App
-A simple and responsive Weather App built using **HTML**, **CSS**, and **JavaScript**. This application allows users to search for any city and get real-time weather updates including temperature, weather condition, humidity, and wind speed.
-This Weather App is a responsive and interactive web application built with HTML, CSS, and JavaScript that allows users to get real-time weather updates of any city using the OpenWeatherMap API. Users can enter the name of a city and receive live weather data including temperature, weather condition, humidity, and wind speed.
+# 🌤️ Weather App
 
-Core Functionality :
+Welcome to the **Weather App**! This project provides real-time weather updates for any city worldwide using the **OpenWeatherMap API**, presented through a clean and responsive UI built with HTML, CSS, and JavaScript.
 
-HTML : 
+---
 
-Defines the structure of the app including search input, weather display, and error section.
+## 📸 App Screenshots
 
--> Used to build the basic structure of the application.
+### 🔍 1. Default Weather UI (Before Search)
+![Default UI](https://github.com/PrashantKumar026/Weather-App/blob/main/Screenshot%202025-07-27%20180917.png?raw=true)
 
--> Includes input field, buttons, and containers for weather information display.
+---
 
-CSS : 
+### 🌧️ 2. Weather Data for a Valid City (e.g., Mumbai)
+![Mumbai Weather](https://github.com/PrashantKumar026/Weather-App/blob/main/Screenshot%202025-07-27%20181006.png?raw=true)
 
-Adds modern styling with background colors, spacing, hover effects, and responsive layout.
+---
 
--> Applied for styling the user interface.
+### ❌ 3. Invalid Location Error Handling
+![Location Not Found](https://github.com/PrashantKumar026/Weather-App/blob/main/Screenshot%202025-07-27%20181151.png?raw=true)
 
--> Provides layout, colors, fonts, spacing, and responsive design.
+---
 
--> Flexbox is used for alignment and responsive behavior.
+## 🚀 Features
 
-JavaScript :
+- 🌎 Get real-time weather updates for any city
+- 📅 5-day forecast support (optional extension)
+- 🌡️ Temperature, condition, humidity, and wind speed display
+- ⚠️ Error handling for invalid city names
+- 💻 Fully responsive and modern UI
 
--> Fetches data asynchronously from OpenWeatherMap.
+---
 
--> Dynamically updates the DOM with real-time weather info.
+## 🔧 Technologies Used
 
--> Handles error messages if location is not found.
+- **HTML** – Structure of the application
+- **CSS** – Styling and layout using Flexbox
+- **JavaScript** – Weather data fetching and DOM manipulation
+- **OpenWeatherMap API** – Real-time weather data
 
--> Maps weather conditions to local icons
+---
 
-Key Highlights:
+## 💡 Core Functionality
 
-🔍 Interactive Search: Just type the name of any city and click the search icon to get instant weather updates.
+**HTML**  
+-> Defines the structure of the app including search input, weather display, and error section  
+-> Includes input field, buttons, and containers for weather information display
 
-🌡️ Temperature Display: Shows real-time temperature in °C with large, bold typography for quick readability.
+**CSS**  
+-> Adds modern styling with background colors, spacing, hover effects, and responsive layout  
+-> Provides layout, colors, fonts, spacing, and Flexbox alignment  
+-> Makes the app mobile-friendly
 
-🌧️ Condition Awareness: Text and icon visuals reflect the actual weather (e.g., Light Rain, Sunny, etc.), keeping users informed at a glance.
+**JavaScript**  
+-> Fetches data asynchronously from OpenWeatherMap  
+-> Dynamically updates the DOM with real-time weather info  
+-> Handles error messages if location is not found  
+-> Maps weather conditions to appropriate icons
 
-💧 Humidity & Wind: Additional details like humidity percentage and wind speed help users plan their day better.
+---
 
-📱 Responsive Design: Whether on desktop or mobile, the layout adjusts beautifully, making it accessible everywhere.
+## ❌ Smart Error Handling
+
+When a user types an invalid city (e.g., "Lll"), the app returns:
+
+> **"Sorry, Location not found!!!"**
+
+With a custom illustration, the error screen provides clear, friendly feedback, helping users understand what went wrong and try again.
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- A modern web browser
+- An API key from [OpenWeatherMap](https://home.openweathermap.org/api_keys)
+
+### Installation
+
+```bash
+git clone https://github.com/PrashantKumar026/Weather-App.git
+cd Weather-App
