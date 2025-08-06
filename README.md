@@ -3,10 +3,7 @@
 Welcome to the **Weather App**! This project provides real-time weather updates for any city worldwide using the **OpenWeatherMap API**, presented through a clean and responsive UI built with HTML, CSS, and JavaScript.
 
 ---
-
-🔗 **Live Demo:** [https://temptrackproject.netlify.app](https://temptrackproject.netlify.app)
-
----
+🔗 Live Demo: https://temptrackproject.netlify.app/
 
 ## 🚀 Features
 
@@ -29,34 +26,34 @@ Welcome to the **Weather App**! This project provides real-time weather updates 
 
 ## 💡 Core Functionality
 
-### 🔹 HTML  
-- Defines the structure of the app including search input, weather display, and error section  
-- Includes input field, buttons, and containers for weather information display  
+**HTML**  
+→ Defines the structure of the app including search input, weather display, and error section  
+→ Includes input field, buttons, and containers for weather information display  
 
-### 🔹 CSS  
-- Adds modern styling with background colors, spacing, hover effects, and responsive layout  
-- Provides layout, colors, fonts, spacing, and Flexbox alignment  
-- Makes the app mobile-friendly  
+**CSS**  
+→ Adds modern styling with background colors, spacing, hover effects, and responsive layout  
+→ Provides layout, colors, fonts, spacing, and Flexbox alignment  
+→ Makes the app mobile-friendly  
 
-### 🔹 JavaScript  
-- Fetches data asynchronously from OpenWeatherMap  
-- Dynamically updates the DOM with real-time weather info  
-- Handles error messages if location is not found  
-- Maps weather conditions to appropriate icons  
+**JavaScript**  
+→ Fetches data asynchronously from OpenWeatherMap  
+→ Dynamically updates the DOM with real-time weather info  
+→ Handles error messages if location is not found  
+→ Maps weather conditions to appropriate icons  
 
 ---
 
 ## 📸 App Screenshots
 
 ### 🔍 1. Default Weather UI (Before Search)  
-Displays the base state of the app before a user enters a location.
+Displays the base state of the app before a user enters a location.  
 
 ![Result 1](https://github.com/PrashantKumar026/Weather-App/blob/main/Result%201.png?raw=true)
 
 ---
 
 ### 🌧️ 2. Weather Data for a Valid City (e.g., Mumbai)  
-Shows weather info including temperature, condition, humidity, and wind speed.
+Shows weather info including temperature, condition, humidity, and wind speed.  
 
 ![Result 2](https://github.com/PrashantKumar026/Weather-App/blob/main/Result%202.png?raw=true)
 
@@ -65,18 +62,15 @@ Shows weather info including temperature, condition, humidity, and wind speed.
 ### ❌ 3. Invalid Location Error Handling  
 When a user types an invalid city (e.g., "Lll"), the app shows:
 
-> **"Sorry, Location not found!!!"**
-
+> **"Sorry, Location not found!!!"**  
 This is shown with a friendly illustration to guide users to try again.
 
 ![Result 3](https://github.com/PrashantKumar026/Weather-App/blob/main/Result%203.png?raw=true)
 
 ---
 
-## 👨‍💻 Author & Contact
+## 🔗 Connect with Me
 
-- 📧 **Email:** prashantkumar02026@gmail.com  
-- 💼 **LinkedIn:** [linkedin.com/in/prashant-kumar-268484329](https://www.linkedin.com/in/prashant-kumar-268484329)  
-- 🐱‍💻 **GitHub:** [github.com/PrashantKumar026](https://github.com/PrashantKumar026)  
-
----
+- 💼 LinkedIn :  [LinkedIn](https://www.linkedin.com/in/prashant-kumar-268484329)  
+- 🛠️ Github :  [GitHub](https://github.com/PrashantKumar026)  
+- 📧 Email: [prashantkumar02026@gmail.com](mailto:prashantkumar02026@gmail.com)
