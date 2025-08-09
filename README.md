@@ -3,7 +3,7 @@
 Welcome to the **Weather App**! This project provides real-time weather updates for any city worldwide using the **OpenWeatherMap API**, presented through a clean and responsive UI built with HTML, CSS, and JavaScript.
 
 ---
-🔗 Live Demo: https://temptrackproject.netlify.app/
+🔗 Live Demo: https://techtemp26.netlify.app/
 
 ## 🚀 Features
 
